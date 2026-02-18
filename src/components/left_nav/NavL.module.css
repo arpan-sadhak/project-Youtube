@@ -12,6 +12,10 @@
     padding-top: 16px;
 }
 
+.shape {
+    color: white;
+    font-size : 50px
+}
 
 #nav_close_ul{
     top: 70px;

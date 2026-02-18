@@ -14,3 +14,7 @@
     cursor: pointer;
     text-decoration: none;
 }
+
+.suggestion ul li button {
+    border-radius: 15px;
+}

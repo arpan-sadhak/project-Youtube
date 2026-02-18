@@ -1,4 +1,16 @@
 import styles from "./NavU.module.css"
+import { FaAlignJustify } from "react-icons/fa";
+import { TbBrandYoutubeFilled } from "react-icons/tb";
+import { FaSearch } from "react-icons/fa";
+import { FaPlus } from "react-icons/fa";
+import { IoNotificationsOutline } from "react-icons/io5";
+import { VscAccount } from "react-icons/vsc";
+
+
+
+
+
+
 
 const NavU = () => {
     return (
@@ -6,9 +18,9 @@ const NavU = () => {
         <nav className="navbar" id={styles.uppar_nav}>
               <div className={styles.container_nav}>
                 <div className={styles.left_nav_div}>
-                  <img src="/icons8-align-justify-96.png" alt="" id={styles.nav_justify} />
+                  <FaAlignJustify id={styles.nav_justify}/>
                   <div>
-                    <img src="/icons8-youtube-96.png" alt="" id={styles.nav_logo} />
+                    <TbBrandYoutubeFilled id={styles.nav_logo} />
                     <p><b>Youtube</b></p>
                   </div>
                 </div>
@@ -22,20 +34,16 @@ const NavU = () => {
                     aria-label="Search"
                   />
                   <button className="btn btn-outline-light" type="submit">
-                    Search
+                    <FaSearch />
                   </button>
                 </form>
 
                 <div id={styles.right_nav_div}>
                   <button type="button" className="btn btn-outline-light">
-                    create
+                    <FaPlus />&nbsp; create
                   </button>
-                  <button type="button" className="btn btn-outline-light">
-                    notification
-                  </button>
-                  <button type="button" className="btn btn-outline-light">
-                    profile
-                  </button>
+                  <IoNotificationsOutline className={styles.notification_button}/>
+                  <VscAccount className={styles.notification_button}/>
                 </div>
               </div>
             </nav>
