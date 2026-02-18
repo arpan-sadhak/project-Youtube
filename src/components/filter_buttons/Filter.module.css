@@ -1,0 +1,16 @@
+.suggestion {
+    width: calc(100vw - 100px);
+}
+
+.suggestion ul {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 0 ;
+}
+
+
+.suggestion ul li {
+    list-style-type:none;
+    cursor: pointer;
+    text-decoration: none;
+}

@@ -1,0 +1,35 @@
+#left_nav{
+    /* border: 2px solid var(--text-color); */
+
+
+    background-color: var(--background-color);
+    color: var(--text-color);
+    width: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+}
+
+
+#nav_close_ul{
+    top: 70px;
+    left: 0;
+    background-color: var(--background-color);
+    width: 100%;
+    padding : 0 10px;
+}
+
+#nav_close_ul li button img{
+    width: 50px;
+    height: 50px;
+}
+
+#nav_close_ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    cursor: pointer;
+}

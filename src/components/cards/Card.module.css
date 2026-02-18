@@ -1,0 +1,42 @@
+.video_card{
+    width: 420px;
+    height: 350px;
+    background-color: var(--background-color);
+    border-radius: 20px;
+    padding: 0px 10px ;
+}
+
+.video_thumbnail{
+    width: 100%;
+    height: 75%;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+}
+.video_info{
+    width: 100%;
+    height: 25%;
+    padding: 10px;
+    background-color: transparent;
+    color: var(--text-color);
+    display: flex;
+}
+
+.channel_profile {
+    width: 40px;
+    height: 40px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+}
+
+
+.video_text{
+    padding-left: 10px;
+    width: calc( 100% - 40px);
+    display: flex;
+    flex-direction: column;
+}
+
+.video_text p{
+    font-size:smaller;
+    margin: 0;
+}
