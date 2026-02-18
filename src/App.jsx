@@ -14,7 +14,14 @@ function App() {
 
         <div className="content">
           <NavL />
-          <div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              flex: 1,
+              overflow: "hidden",
+            }}
+          >
             <Filter />
             <Videos />
           </div>

@@ -16,23 +16,19 @@
 body {
     background-color: var(--background-color);
     color: var(--text-color);
-    overflow: hidden;
 }
 
 #body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
 }
+
 
 
 .content {
     display: flex;
-}
-
-.content div {
-    height: 100%;
-    max-width: calc(var(--ytd-rich-grid-content-max-width) + var(--ytd-rich-grid-item-margin) + var(--ytd-rich-grid-gutter-margin) * 2);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex: 1;
+    overflow: hidden;
 }
