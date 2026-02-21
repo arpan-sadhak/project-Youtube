@@ -5,13 +5,14 @@ import Videos from "./components/result_videos/Videos";
 import NavL from "./components/left_nav/NavL";
 import NavU from "./components/upper_nav/NavU";
 
+
+
 function App() {
   return (
     <>
       {" "}
       <div id="body">
         <NavU />
-
         <div className="content">
           <NavL />
           <div

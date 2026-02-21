@@ -4,71 +4,71 @@ import styles from "./Videos.module.css";
 const Videos = () => {
   const count = [
     {
-      video_thumbnail: "demo.jpg",
-      channel_profile: "dog5.jpg",
+      video_thumbnail: "dog5.jpg",
+      channel_profile: "demo.jpg",
       video_title: "ami kichu jni na | ami bolbo na",
       channel_name: "chanel name",
       video_views: "1M",
     },
     {
-      video_thumbnail: "demo.jpg",
-      channel_profile: "dog5.jpg",
+      video_thumbnail: "dog5.jpg",
+      channel_profile: "demo.jpg",
       video_title: "ami kichu jni na | ami bolbo na",
       channel_name: "chanel name",
       video_views: "1M",
     },
     {
-      video_thumbnail: "demo.jpg",
-      channel_profile: "dog5.jpg",
+      video_thumbnail: "dog5.jpg",
+      channel_profile: "demo.jpg",
       video_title: "ami kichu jni na | ami bolbo na",
       channel_name: "chanel name",
       video_views: "1M",
     },
     {
-      video_thumbnail: "demo.jpg",
-      channel_profile: "dog5.jpg",
+      video_thumbnail: "dog5.jpg",
+      channel_profile: "demo.jpg",
       video_title: "ami kichu jni na | ami bolbo na",
       channel_name: "chanel name",
       video_views: "1M",
     },
     {
-      video_thumbnail: "demo.jpg",
-      channel_profile: "dog5.jpg",
+      video_thumbnail: "dog5.jpg",
+      channel_profile: "demo.jpg",
       video_title: "ami kichu jni na | ami bolbo na",
       channel_name: "chanel name",
       video_views: "1M",
     },
     {
-      video_thumbnail: "demo.jpg",
-      channel_profile: "dog5.jpg",
+      video_thumbnail: "dog5.jpg",
+      channel_profile: "demo.jpg",
       video_title: "ami kichu jni na | ami bolbo na",
       channel_name: "chanel name",
       video_views: "1M",
     },
     {
-      video_thumbnail: "demo.jpg",
-      channel_profile: "dog5.jpg",
+      video_thumbnail: "dog5.jpg",
+      channel_profile: "demo.jpg",
       video_title: "ami kichu jni na | ami bolbo na",
       channel_name: "chanel name",
       video_views: "1M",
     },
     {
-      video_thumbnail: "demo.jpg",
-      channel_profile: "dog5.jpg",
+      video_thumbnail: "dog5.jpg",
+      channel_profile: "demo.jpg",
       video_title: "ami kichu jni na | ami bolbo na",
       channel_name: "chanel name",
       video_views: "1M",
     },
     {
-      video_thumbnail: "demo.jpg",
-      channel_profile: "dog5.jpg",
+      video_thumbnail: "dog5.jpg",
+      channel_profile: "demo.jpg",
       video_title: "ami kichu jni na | ami bolbo na",
       channel_name: "chanel name",
       video_views: "1M",
     },
   ];
 
-  return (
+  return ( 
     <>
       {" "}
       <div className={styles.main_body}>
