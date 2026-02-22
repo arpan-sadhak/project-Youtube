@@ -15,3 +15,25 @@
 
     box-shadow: 0 4px 10px rgba(87, 33, 33, 0.4);
 }
+
+.f ul{
+    padding-left: 0px;
+    width: 100%;
+    list-style-type: none;
+    font-size: larger;
+    padding-top: 5px;
+}
+
+.f ul li{
+    padding-left: 20px;
+    margin:  11px 0;
+    scroll-behavior: smooth;
+}
+
+.f ul li:hover {
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.158);
+}
+
+.history_icon {
+    margin-right: 10px;
+}

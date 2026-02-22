@@ -72,9 +72,9 @@ const Videos = () => {
     <>
       {" "}
       <div className={styles.main_body}>
-        {count.map((item) => (
+        {count.map((item,index) => (
           <Card
-            key={item}
+            key={index}
             video_thumbnail={item.video_thumbnail}
             channel_profile={item.channel_profile}
             video_title={item.video_title}

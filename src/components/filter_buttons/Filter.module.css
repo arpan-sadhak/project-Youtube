@@ -16,5 +16,12 @@
 }
 
 .suggestion ul li button {
+    margin-top: 8px;
+    z-index: 200;
     border-radius: 15px;
+}
+
+.suggestion ul li button:hover {
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.158);
+    transform: translateZ(150px) scale(1.1);
 }

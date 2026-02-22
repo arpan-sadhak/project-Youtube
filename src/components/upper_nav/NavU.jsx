@@ -8,9 +8,9 @@ import { VscAccount } from "react-icons/vsc";
 import Search_history from "../search_history/Search_history";
 import { useState } from "react";
 
-const NavU = () => {
+const NavU = ({ open_close_leftPanel }) => {
 
-  let [focused, setFocused] = useState(false);
+  const [focused, setFocused] = useState(false);
 
   const handleOnChange = (e) => {
     setFocused(!focused)
@@ -18,12 +18,15 @@ const NavU = () => {
 
   return (
     <>
-      <nav className="navbar" id={styles.uppar_nav}>
+      <nav className={`navbar ${styles.uppar_nav}`}>
         <div className={styles.container_nav}>
           <div className={styles.left_nav_div}>
-            <FaAlignJustify id={styles.nav_justify} />
+            <button
+              className={`btn ${styles.nav_justify}`}
+              onClick={open_close_leftPanel}>
+              <FaAlignJustify style={{width: "70%",height:"70%"}}/></button>
             <div>
-              <TbBrandYoutubeFilled id={styles.nav_logo} />
+              <TbBrandYoutubeFilled className={styles.nav_logo} />
               <p>
                 <b>Youtube</b>
               </p>
@@ -48,13 +51,13 @@ const NavU = () => {
             {focused && <Search_history />}
           </span>
 
-          <div id={styles.right_nav_div}>
-            <button type="button" className="btn btn-outline-light">
+          <div className={styles.right_nav_div}>
+            <button type="button" className={`btn btn-outline-light ${styles.effect}`}>
               <FaPlus />
               &nbsp; create
             </button>
-            <IoNotificationsOutline className={styles.notification_button} />
-            <VscAccount className={styles.notification_button} />
+            <IoNotificationsOutline className={`${styles.notification_button} ${styles.effect}`} />
+            <VscAccount className={`${styles.notification_button} ${styles.effect}`} />
           </div>
         </div>
       </nav>

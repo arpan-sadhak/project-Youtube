@@ -1,38 +1,42 @@
-import styles from "./Search_history.module.css"
+import { LuHistory } from "react-icons/lu";
+import styles from "./Search_history.module.css";
 
 const Search_history = () => {
+  const history_list = [
+    "hindi songs",
+    "cartoon",
+    "movies",
+    "avangers",
+    "city mall",
+    "hindi songs",
+    "cartoon",
+    "movies",
+    "avangers",
+    "city mall",
+    "hindi songs",
+    "cartoon",
+    "movies",
+    "avangers",
+    "city mall",
+    "hindi songs",
+    "cartoon",
+    "movies",
+    "avangers",
+    "city mall",
+  ];
+
   return (
     <>
       <div className={styles.f}>
         <ul>
-          <li>hindi songs</li>
-          <li>cartoon</li>
-          <li>movies</li>
-          <li>cars</li>
-          <li>avangers</li>
-          <li>city mall</li>
-          <li>hd videos</li>
-          <li>hindi songs</li>
-          <li>cartoon</li>
-          <li>movies</li>
-          <li>cars</li>
-          <li>avangers</li>
-          <li>city mall</li>
-          <li>hd videos</li>
-          <li>hindi songs</li>
-          <li>cartoon</li>
-          <li>movies</li>
-          <li>cars</li>
-          <li>avangers</li>
-          <li>city mall</li>
-          <li>hd videos</li>
-          <li>hindi songs</li>
-          <li>cartoon</li>
-          <li>movies</li>
-          <li>cars</li>
-          <li>avangers</li>
-          <li>city mall</li>
-          <li>hd videos</li>
+          {history_list.map((items,index)=>(
+            <li key={index}>
+            {" "}
+            <LuHistory className={styles.history_icon}/>
+            {items }
+          </li>
+          ))}
+          
         </ul>
       </div>
     </>
